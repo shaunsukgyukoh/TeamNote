@@ -1,6 +1,6 @@
 ## Fibonacci
 
-BOJ 2747
+Ref: BOJ 2747
 
 - Recursion (easier)
     ``` python
