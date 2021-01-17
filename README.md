@@ -4,10 +4,10 @@ My team note
 ## Sort
   
   - [Bubble sort](sort/bub.md)
-  - [Insertion sort](https://github.com/shaunsukgyukoh/TeamNote/blob/main/sort/ins.md)
-  - [Selection sort]()
-  - [Merge sort]()
-  - [Quick sort]()
+  - [Insertion sort](sort/ins.md)
+  - [Selection sort](sort/sel.md)
+  - [Merge sort](sort/mer.md)
+  - [Quick sort](sort/qck.md)
 
 ## Recursion  
   recursion must be < 1000 in Python
@@ -15,12 +15,12 @@ My team note
   import sys
   sys.setrecursionlimit(1000)
   ```
-  - [Factorial]()
-  - [Fibonacci]()
-  - [Palindrome]()
+  - [Factorial](recursion/facto.md)
+  - [Fibonacci](recursion/fibo.md)
+  - [Palindrome](recursion/palin.md)
+  - [Hanoi](recursion/hanoi.md)
     
 ## Greedy
-  - [Hanoi]()
   - [MST (Minimum Spanning Tree)]
   - [Dividable item Knapsack Probelm] (item can be divided into fractions)
   - [Interval scheduling] (the Greedy-stays-ahead)
@@ -39,4 +39,4 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
   - [Rod cutting]
   - [LCS (Longest Common Subsequence)]
   - [Matrix-chain multiplication]
-  - [Fibonacci]()
+  - [Fibonacci](DP/fiboDP.md)
