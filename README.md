@@ -4,7 +4,7 @@ My team note
 ## Sort
   
   - [Bubble sort](sort/bub.md)
-  - [Insertion sort]()
+  - [Insertion sort](https://github.com/shaunsukgyukoh/TeamNote/blob/main/sort/ins.md)
   - [Selection sort]()
   - [Merge sort]()
   - [Quick sort]()
