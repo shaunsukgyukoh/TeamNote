@@ -3,7 +3,7 @@
 My team note
 ## Sort
   
-  - [Bubble sort]()
+  - [Bubble sort](sort/bub.md)
   - [Insertion sort]()
   - [Selection sort]()
   - [Merge sort]()
