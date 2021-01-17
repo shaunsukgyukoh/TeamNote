@@ -9,7 +9,8 @@ My team note
   - [Merge sort](sort/mer.md)
   - [Quick sort](sort/qck.md)
 
-## Recursion  
+## Recursion
+
   recursion must be < 1000 in Python
   ``` python
   import sys
@@ -21,14 +22,15 @@ My team note
   - [Hanoi](recursion/hanoi.md)
     
 ## Greedy
+
   - [MST (Minimum Spanning Tree)]
   - [Dividable item Knapsack Probelm] (item can be divided into fractions)
   - [Interval scheduling] (the Greedy-stays-ahead)
   - [Interval scheduling w/ minimum lateness]
   - [Interval partitioning]
 
-
 ## DP  
+
 Utilize __Memoization__ : Save previous values and use it for next calculation.
   - Knapsack
     1. [Unbounded Knapsack Problem] (inf quantity of items)
@@ -40,3 +42,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
   - [LCS (Longest Common Subsequence)]
   - [Matrix-chain multiplication]
   - [Fibonacci](DP/fiboDP.md)
+
+## ETC
+
+  - [Hash function](hash.md)

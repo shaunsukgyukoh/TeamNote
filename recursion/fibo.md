@@ -55,7 +55,7 @@ while n:
 print(s)
 ```
 
-- while (recursion 대체)
+- DP
 ``` python
 import sys
 sys.setrecursionlimit(10000)
