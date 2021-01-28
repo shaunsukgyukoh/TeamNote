@@ -1,3 +1,5 @@
+## Counting sort
+
 - Use only if data is __integer__  and size is limited
   - If data is big and have small size (e.g. [0, 999999]), memory will be wasted a lot.
   - Effective when there's a lot of duplicate #s. (e.g. test scores)

@@ -1,4 +1,4 @@
-# Basic hash function
+## Basic hash function
 
 - sha256
 

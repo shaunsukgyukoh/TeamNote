@@ -46,3 +46,5 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 ## ETC
 
   - [Hash function](hash.md)
+  - [Two Pointers](twoPointers.md)
+  - [Prefix sum](prefixSum.md)
