@@ -59,6 +59,10 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [DFS](graph/dfs.md)
 - [BFS](graph/bfs.md)
 
+# Search
+
+- [Binary](Search/binary.md)
+
 ## ETC
 
 - [Hash function](hash.md)
