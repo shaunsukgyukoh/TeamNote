@@ -59,9 +59,15 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [DFS](graph/dfs.md)
 - [BFS](graph/bfs.md)
 
-# Search
+## Search
 
 - [Binary](Search/binary.md)
+
+## Shortest Path
+
+- [Dijkstra](ShortestPath/dijkstra.md)
+- [Floyed-Warshall](ShortestPath/floyedWarshall.md)
+- [Bellman-Ford]#(ShortestPath/bellmanFord.md)
 
 ## ETC
 
