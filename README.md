@@ -47,6 +47,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [LCS (Longest Common Subsequence)]
 - [Matrix-chain multiplication]
 - [Fibonacci](DP/fiboDP.md)
+- [LIS (Longest Increasing Subsequence)](DP/lis.md)
 
 ## Implement
 
