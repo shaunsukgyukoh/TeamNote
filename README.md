@@ -48,6 +48,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [Matrix-chain multiplication]
 - [Fibonacci](DP/fiboDP.md)
 - [LIS (Longest Increasing Subsequence)](DP/lis.md)
+- [LCS (Longest Common Subsequence)](DP/lcs.md)
 
 ## Implement
 
@@ -69,6 +70,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [Dijkstra](ShortestPath/dijkstra.md)
 - [Floyed-Warshall](ShortestPath/floyedWarshall.md)
 - [Bellman-Ford]#(ShortestPath/bellmanFord.md)
+- [TSP (Traveling Salesperson Problem)]
 
 ## ETC
 
