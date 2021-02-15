@@ -24,6 +24,7 @@ for k in range(n):
         for b in range(n):
             graph[a][b] = min(graph[a][b], graph[a][k]+graph[k][b])
 
+
 # # 수행된 결과를 출력
 # for a in range(1, n + 1):
 #     for b in range(1, n + 1):
@@ -36,6 +37,7 @@ for k in range(n):
 #     print()
 for i in graph:
     print(' '.join(str(j) if j < 987654321 else str(0) for j in i))
+
 ```
 
 ``` cpp
