@@ -69,8 +69,8 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 
 - [Dijkstra](ShortestPath/dijkstra.md)
 - [Floyed-Warshall](ShortestPath/floyedWarshall.md)
-- [Bellman-Ford]#(ShortestPath/bellmanFord.md)
-- [TSP (Traveling Salesperson Problem)]
+- [Bellman-Ford](ShortestPath/bellmanFord.md)
+- [TSP (Traveling Salesperson Problem)](ShortestPath/tsp.md)
 
 ## ETC
 
