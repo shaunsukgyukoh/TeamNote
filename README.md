@@ -27,7 +27,7 @@ sys.setrecursionlimit(1000)
 
 ## Greedy
 
-- [MST (Minimum Spanning Tree)]
+- [MST (Minimum Spanning Tree)](Greedy/mst.md)
 - [Dividable item Knapsack Probelm] (item can be divided into fractions)
 - [Interval scheduling] (the Greedy-stays-ahead)
 - [Interval scheduling w/ minimum lateness]
@@ -71,6 +71,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [Floyed-Warshall](ShortestPath/floyedWarshall.md)
 - [Bellman-Ford](ShortestPath/bellmanFord.md)
 - [TSP (Traveling Salesperson Problem)](ShortestPath/tsp.md)
+- [DAG / Topological Sort](Shortest/dag_topoSort.md)
 
 ## ETC
 

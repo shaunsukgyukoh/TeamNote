@@ -276,13 +276,14 @@ public static void main(String args[])
 4. Return the permutation with minimum cost.
 
 ``` python
-# Python3 implementation of the approach 
-V = 4
-answer = [] 
+n = int(input())
+graph = [list(map(int, input().split())) for _ in range(n)]
+answer= []
+visited = [False for _ in range(n)] 
   
 # Function to find the minimum weight  
 # Hamiltonian Cycle 
-def tsp(graph, v, currPos, n, count, cost): 
+def tsp(now, count, cost): 
   
     # If last node is reached and it has  
     # a link to the starting node i.e  
@@ -291,49 +292,28 @@ def tsp(graph, v, currPos, n, count, cost):
     # traversal and "ans" 
     # Finally return to check for  
     # more possible values 
-    if (count == n and graph[currPos][0]): 
-        answer.append(cost + graph[currPos][0]) 
+    visited[now] = True
+    if count == n-1 and graph[now][0]: 
+        answer.append(cost + graph[now][0]) 
         return
   
     # BACKTRACKING STEP 
     # Loop to traverse the adjacency list 
-    # of currPos node and increasing the count 
-    # by 1 and cost by graph[currPos][i] value 
+    # of now node and increasing the count 
+    # by 1 and cost by graph[now][i] value 
     for i in range(n): 
-        if (v[i] == False and graph[currPos][i]): 
-              
-            # Mark as visited 
-            v[i] = True
-            tsp(graph, v, i, n, count + 1,  
-                cost + graph[currPos][i]) 
-              
-            # Mark ith node as unvisited 
-            v[i] = False
-  
+        if not visited[i] and graph[now][i]: 
+            visited[i] = True # Mark as visited 
+            tsp(i, count + 1, cost + graph[now][i])
+            visited[i] = False # Mark ith node as unvisited 
+
 # Driver code 
   
-# n is the number of nodes i.e. V 
-if __name__ == '__main__': 
-    n = 4
-    graph= [[ 0, 10, 15, 20 ], 
-            [ 10, 0, 35, 25 ], 
-            [ 15, 35, 0, 30 ], 
-            [ 20, 25, 30, 0 ]] 
-  
-    # Boolean array to check if a node 
-    # has been visited or not 
-    v = [False for i in range(n)] 
-      
-    # Mark 0th node as visited 
-    v[0] = True
-  
-    # Find the minimum weight Hamiltonian Cycle 
-    tsp(graph, v, 0, n, 1, 0) 
-  
-    # ans is the minimum weight Hamiltonian Cycle 
-    print(min(answer)) 
-  
-# This code is contributed by mohit kumar 
+# Find the minimum weight Hamiltonian Cycle 
+tsp(0, 0, 0) 
+
+# ans is the minimum weight Hamiltonian Cycle 
+print(min(answer))
 ```
 
 ``` cpp
