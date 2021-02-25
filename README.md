@@ -71,7 +71,7 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 - [Floyed-Warshall](ShortestPath/floyedWarshall.md)
 - [Bellman-Ford](ShortestPath/bellmanFord.md)
 - [TSP (Traveling Salesperson Problem)](ShortestPath/tsp.md)
-- [DAG / Topological Sort](Shortest/dag_topoSort.md)
+- [DAG / Topological Sort](ShortestPath/dag_topoSort.md)
 
 ## ETC
 
