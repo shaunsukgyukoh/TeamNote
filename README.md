@@ -20,10 +20,10 @@ import sys
 sys.setrecursionlimit(1000)
 ```
 
-- [Factorial](recursion/facto.md)
-- [Fibonacci](recursion/fibo.md)
-- [Palindrome](recursion/palin.md)
-- [Hanoi](recursion/hanoi.md)
+- [Factorial](Recursion/facto.md)
+- [Fibonacci](Recursion/fibo.md)
+- [Palindrome](Recursion/palin.md)
+- [Hanoi](Recursion/hanoi.md)
 
 ## Greedy
 
@@ -53,8 +53,8 @@ Utilize __Memoization__ : Save previous values and use it for next calculation.
 ## Implement
 
 - Complete search
-  - [4 way search](implement/fourWay.md)
-  - [moving knight](implement/knight.md)
+  - [4 way search](Implement/fourWay.md)
+  - [moving knight](Implement/knight.md)
 
 ## Graph
 
