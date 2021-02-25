@@ -3,7 +3,7 @@
 My team note
 
 ## Sort
-  
+
 - [Bubble sort](sort/bub.md)
 - [Insertion sort](sort/ins.md)
 - [Selection sort](sort/sel.md)
@@ -33,7 +33,7 @@ sys.setrecursionlimit(1000)
 - [Interval scheduling w/ minimum lateness]
 - [Interval partitioning]
 
-## DP  
+## DP
 
 Utilize __Memoization__ : Save previous values and use it for next calculation.
 
