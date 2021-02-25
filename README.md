@@ -20,14 +20,14 @@ import sys
 sys.setrecursionlimit(1000)
 ```
 
-- [Factorial](Recursion/facto.md)
-- [Fibonacci](Recursion/fibo.md)
-- [Palindrome](Recursion/palin.md)
-- [Hanoi](Recursion/hanoi.md)
+- [Factorial](recursion/facto.md)
+- [Fibonacci](recursion/fibo.md)
+- [Palindrome](recursion/palin.md)
+- [Hanoi](recursion/hanoi.md)
 
 ## Greedy
 
-- [MST (Minimum Spanning Tree)](Greedy/mst.md)
+- [MST (Minimum Spanning Tree)](greedy/mst.md)
 - [Dividable item Knapsack Probelm] (item can be divided into fractions)
 - [Interval scheduling] (the Greedy-stays-ahead)
 - [Interval scheduling w/ minimum lateness]
